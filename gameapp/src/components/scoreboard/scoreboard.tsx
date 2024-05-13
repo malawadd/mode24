@@ -47,7 +47,7 @@ export function ScoreboardPage() {
 
       if (!contractInstance) {
         const ethersProvider = new JsonRpcProvider(
-          process.env.NEXT_PUBLIC_RPC_URL || "https://sepolia.mode.network",
+          process.env.NEXT_PUBLIC_RPC_URL || "https://rpc-quoise-asgxak2pra.t.conduit.xyz",
         )
         const signer = await ethersProvider.getSigner()
         const newContract = new Contract(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "", ABI, signer)
@@ -165,7 +165,7 @@ export function ScoreboardPage() {
               >
                 <div className="basis-1/5 text-center">
                   <a
-                    href={`https://sepolia.explorer.mode.network/address/${s.ethAddress}`}
+                    href={`https://explorerl2new-quoise-asgxak2pra.t.conduit.xyz/address/${s.ethAddress}`}
                     target="_blank"
                     className="hover:underline"
                   >

@@ -7,6 +7,7 @@ export const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-end">
           <Link href="/" className="px-3 py-2 rounded-md font-medium hover:bg-gray-700">home</Link>
+          <Link href="https://app.conduit.xyz/published/view/quoise-asgxak2pra" className="px-3 py-2 rounded-md font-medium hover:bg-gray-700">about</Link>
           <Link href="/scoreboard" className="px-3 py-2 rounded-md font-medium hover:bg-gray-700">scoreboard</Link>         
         </div>
       </div>

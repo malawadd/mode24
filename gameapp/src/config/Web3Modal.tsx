@@ -6,18 +6,18 @@ import {createWeb3Modal, defaultConfig} from '@web3modal/ethers/react'
 const projectId = 'f25128b8bcfc64fb5c124705aa9442b8'
 
 let mainnet = {
-  chainId: 919,
-  name: 'MODE',
+  chainId: 920,
+  name: 'QUOISE',
   currency: 'ETH',
-  explorerUrl: 'https://sepolia.explorer.mode.network/',
-  rpcUrl: 'https://sepolia.mode.network'
+  explorerUrl: 'https://explorerl2new-quoise-asgxak2pra.t.conduit.xyz/',
+  rpcUrl: 'https://rpc-quoise-asgxak2pra.t.conduit.xyz'
 }
 if (process.env.NEXT_PUBLIC_NETWORK === "local") {
   mainnet = {
     chainId: 1337,
-    name: 'MODE',
+    name: 'QUOISE',
   currency: 'ETH',
-  explorerUrl: 'https://sepolia.explorer.mode.network/',
+  explorerUrl: 'https://explorerl2new-quoise-asgxak2pra.t.conduit.xyz/',
     rpcUrl: 'http://127.0.0.1:8545'
   }
 }
